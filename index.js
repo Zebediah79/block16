@@ -40,9 +40,10 @@ function logNames(items) {
  */
 function getUppercaseNames(items) {
   const namesUpper = items.map((obj) => obj.name.toUpperCase());
-  // TODO: use `map`
+
   return namesUpper;
 }
+// TODO: use `map`
 
 /**
  * @param {Item[]} items - array of items
