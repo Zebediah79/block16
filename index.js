@@ -25,13 +25,13 @@ const inventory = [
  * Prints out the name of each item in the given array.
  * @param {Item[]} items - array of items
  */
+// TODO: use `forEach`
 function logNames(items) {
   const names = [];
-  inventory.forEach((items) => {
-    names.push(items.name);
+  items.forEach((obj) => {
+    names.push(obj.name);
   });
   console.log(names);
-  // TODO: use `forEach`
 }
 
 /**
